@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="cardTotalRooms" min="-1" pref="190" max="32767" attributes="0"/>
+                      <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                      <Component id="cardEmpty" min="-1" pref="190" max="32767" attributes="0"/>
+                      <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                      <Component id="cardBooked" min="-1" pref="190" max="32767" attributes="0"/>
+                      <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                      <Component id="cardOccupied" min="-1" pref="190" max="32767" attributes="0"/>
+                      <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                      <Component id="cardRevenue" min="-1" pref="190" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="pnlMonth" alignment="0" min="-1" pref="-1" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="btnRefresh" min="-2" pref="-1" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="2" attributes="0">
+                      <Component id="cardTotalRooms" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                      <Component id="cardEmpty" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                      <Component id="cardBooked" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                      <Component id="cardOccupied" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                      <Component id="cardRevenue" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                  <Component id="pnlMonth" min="-1" pref="-1" max="32767" attributes="0"/>
+                  <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                  <Group type="103" groupAlignment="2" attributes="0">
+                      <Component id="btnRefresh" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="cardTotalRooms">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="aa" green="69" red="21" type="rgb"/>
+        </Property>
+      </Properties>
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblTotalRoomsTitle" alignment="0" min="-1" pref="-1" max="32767" attributes="0"/>
+                      <Component id="lblTotalRooms" alignment="0" min="-1" pref="-1" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="lblTotalRoomsTitle" min="-2" pref="-1" max="-2" attributes="0"/>
+                      <EmptySpace min="4" pref="4" max="4" attributes="0"/>
+                      <Component id="lblTotalRooms" min="-2" pref="-1" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblTotalRoomsTitle">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tổng số phòng"/>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblTotalRooms">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="22" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="cardEmpty">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="5a" green="a0" red="2e" type="rgb"/>
+        </Property>
+      </Properties>
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblEmptyTitle" alignment="0" min="-1" pref="-1" max="32767" attributes="0"/>
+                      <Component id="lblEmpty" alignment="0" min="-1" pref="-1" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="lblEmptyTitle" min="-2" pref="-1" max="-2" attributes="0"/>
+                      <EmptySpace min="4" pref="4" max="4" attributes="0"/>
+                      <Component id="lblEmpty" min="-2" pref="-1" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblEmptyTitle">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Phòng trống"/>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblEmpty">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="22" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="cardBooked">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="1e" green="8c" red="e6" type="rgb"/>
+        </Property>
+      </Properties>
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblBookedTitle" alignment="0" min="-1" pref="-1" max="32767" attributes="0"/>
+                      <Component id="lblBooked" alignment="0" min="-1" pref="-1" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="lblBookedTitle" min="-2" pref="-1" max="-2" attributes="0"/>
+                      <EmptySpace min="4" pref="4" max="4" attributes="0"/>
+                      <Component id="lblBooked" min="-2" pref="-1" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblBookedTitle">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Phòng đã đặt"/>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblBooked">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="22" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="cardOccupied">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="3c" green="3c" red="cd" type="rgb"/>
+        </Property>
+      </Properties>
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblOccupiedTitle" alignment="0" min="-1" pref="-1" max="32767" attributes="0"/>
+                      <Component id="lblOccupied" alignment="0" min="-1" pref="-1" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="lblOccupiedTitle" min="-2" pref="-1" max="-2" attributes="0"/>
+                      <EmptySpace min="4" pref="4" max="4" attributes="0"/>
+                      <Component id="lblOccupied" min="-2" pref="-1" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblOccupiedTitle">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Phòng đang ở"/>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOccupied">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="22" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="cardRevenue">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="aa" green="46" red="78" type="rgb"/>
+        </Property>
+      </Properties>
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblRevenueTitle" alignment="0" min="-1" pref="-1" max="32767" attributes="0"/>
+                      <Component id="lblRevenue" alignment="0" min="-1" pref="-1" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="lblRevenueTitle" min="-2" pref="-1" max="-2" attributes="0"/>
+                      <EmptySpace min="4" pref="4" max="4" attributes="0"/>
+                      <Component id="lblRevenue" min="-2" pref="-1" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblRevenueTitle">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tổng doanh thu"/>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblRevenue">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="22" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="pnlMonth">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Doanh thu theo tháng (các đơn đã thanh toán)"/>
+          </Border>
+        </Property>
+      </Properties>
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+                  <Component id="spMonth" min="-1" pref="-1" max="32767" attributes="0"/>
+                  <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+                  <Component id="spMonth" min="-1" pref="320" max="32767" attributes="0"/>
+                  <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="spMonth">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="tblMonth">
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="btnRefresh">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="aa" green="69" red="21" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Làm mới thống kê"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRefreshActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

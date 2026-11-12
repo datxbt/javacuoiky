@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="pnlInput" alignment="0" min="-1" pref="-1" max="32767" attributes="0"/>
+                  <Component id="pnlSearch" alignment="0" min="-1" pref="-1" max="32767" attributes="0"/>
+                  <Component id="spBookings" alignment="0" min="-1" pref="-1" max="32767" attributes="0"/>
+                  <Component id="pnlServices" alignment="0" min="-1" pref="-1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+              <Group type="102" attributes="0">
+                  <Component id="pnlInput" min="-2" pref="-1" max="-2" attributes="0"/>
+                  <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+                  <Component id="pnlSearch" min="-2" pref="-1" max="-2" attributes="0"/>
+                  <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+                  <Component id="spBookings" min="-1" pref="220" max="32767" attributes="0"/>
+                  <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+                  <Component id="pnlServices" min="-2" pref="-1" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="pnlInput">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Đặt phòng"/>
+          </Border>
+        </Property>
+      </Properties>
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblName" alignment="0" min="-2" pref="-1" max="-2" attributes="0"/>
+                              <Component id="lblCheckIn" alignment="0" min="-2" pref="-1" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="txtName" alignment="0" min="-1" pref="170" max="32767" attributes="0"/>
+                              <Component id="txtCheckIn" alignment="0" min="-1" pref="-1" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblPhone" alignment="0" min="-2" pref="-1" max="-2" attributes="0"/>
+                              <Component id="lblCheckOut" alignment="0" min="-2" pref="-1" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="txtPhone" alignment="0" min="-1" pref="140" max="32767" attributes="0"/>
+                              <Component id="txtCheckOut" alignment="0" min="-1" pref="-1" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblRoom" alignment="0" min="-2" pref="-1" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="cbRoom" alignment="0" min="-1" pref="230" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="btnBook" min="-2" pref="-1" max="-2" attributes="0"/>
+                          <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+                          <Component id="btnCheckIn" min="-2" pref="-1" max="-2" attributes="0"/>
+                          <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+                          <Component id="btnCheckOut" min="-2" pref="-1" max="-2" attributes="0"/>
+                          <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+                          <Component id="btnCancel" min="-2" pref="-1" max="-2" attributes="0"/>
+                          <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+                          <Component id="btnRefresh" min="-2" pref="-1" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="2" attributes="0">
+                              <Component id="lblName" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                              <Component id="txtName" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                              <Component id="lblPhone" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                              <Component id="txtPhone" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                              <Component id="lblRoom" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                              <Component id="cbRoom" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+                          <Group type="103" groupAlignment="2" attributes="0">
+                              <Component id="lblCheckIn" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                              <Component id="txtCheckIn" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                              <Component id="lblCheckOut" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                              <Component id="txtCheckOut" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                      <Group type="103" groupAlignment="2" attributes="0">
+                          <Component id="btnBook" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                          <Component id="btnCheckIn" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                          <Component id="btnCheckOut" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                          <Component id="btnCancel" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                          <Component id="btnRefresh" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblName">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tên khách hàng:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtName">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPhone">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Số điện thoại:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPhone">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblRoom">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Phòng trống:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbRoom">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;Room&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblCheckIn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ngày nhận (yyyy-MM-dd):"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtCheckIn">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblCheckOut">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ngày trả (yyyy-MM-dd):"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtCheckOut">
+        </Component>
+        <Component class="javax.swing.JButton" name="btnBook">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="5a" green="a0" red="2e" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Đặt phòng"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBookActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCheckIn">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="aa" green="69" red="21" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Check-in"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCheckInActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCheckOut">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="1e" green="8c" red="e6" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Check-out &amp; Tính tiền"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCheckOutActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCancel">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="3c" green="3c" red="cd" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Hủy đặt"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCancelActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnRefresh">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="aa" green="69" red="21" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Làm mới"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRefreshActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="pnlSearch">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Tìm đơn đặt phòng"/>
+          </Border>
+        </Property>
+      </Properties>
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="lblSearchName" min="-2" pref="-1" max="-2" attributes="0"/>
+                      <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+                      <Component id="txtSearchName" min="-2" pref="170" max="-2" attributes="0"/>
+                      <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+                      <Component id="lblSearchStatus" min="-2" pref="-1" max="-2" attributes="0"/>
+                      <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+                      <Component id="cbSearchStatus" min="-2" pref="130" max="-2" attributes="0"/>
+                      <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+                      <Component id="btnSearch" min="-2" pref="-1" max="-2" attributes="0"/>
+                      <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+                      <Component id="btnExport" min="-2" pref="-1" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+                  <Group type="103" groupAlignment="2" attributes="0">
+                      <Component id="lblSearchName" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                      <Component id="txtSearchName" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                      <Component id="lblSearchStatus" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                      <Component id="cbSearchStatus" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                      <Component id="btnSearch" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                      <Component id="btnExport" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblSearchName">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tên khách:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSearchName">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblSearchStatus">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Trạng thái:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbSearchStatus">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnSearch">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="aa" green="69" red="21" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Tìm kiếm"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSearchActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnExport">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="5a" green="a0" red="2e" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Xuất Excel"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnExportActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="spBookings">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="tblBookings">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="pnlServices">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Dịch vụ đi kèm của đơn đang chọn"/>
+          </Border>
+        </Property>
+      </Properties>
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lblService" min="-2" pref="-1" max="-2" attributes="0"/>
+                          <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+                          <Component id="cbService" min="-2" pref="230" max="-2" attributes="0"/>
+                          <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+                          <Component id="lblQty" min="-2" pref="-1" max="-2" attributes="0"/>
+                          <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+                          <Component id="txtQty" min="-2" pref="60" max="-2" attributes="0"/>
+                          <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+                          <Component id="btnAddService" min="-2" pref="-1" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="spServices" alignment="0" min="-1" pref="-1" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="2" attributes="0">
+                          <Component id="lblService" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                          <Component id="cbService" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                          <Component id="lblQty" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                          <Component id="txtQty" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                          <Component id="btnAddService" alignment="2" min="-2" pref="-1" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+                      <Component id="spServices" min="-2" pref="110" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="8" pref="8" max="8" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblService">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Dịch vụ:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbService">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;Service&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblQty">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Số lượng:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtQty">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnAddService">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="5a" green="a0" red="2e" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Thêm dịch vụ cho đơn đang chọn"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAddServiceActionPerformed"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="spServices">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="tblServices">
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
